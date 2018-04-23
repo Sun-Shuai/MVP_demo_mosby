@@ -1,18 +1,16 @@
 package com.sunshuai.mosbydemo;
 
-import android.support.annotation.NonNull;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.annotation.NonNull;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ProgressBar;
 import android.widget.Toast;
 
-import com.hannesdorfmann.mosby3.mvp.MvpActivity;
-import com.hannesdorfmann.mosby3.mvp.MvpPresenter;
+import com.sunshuai.mosbydemo.base.BaseActivity;
 
-public class LoginActivity extends MvpActivity<LoginView, LoginPresenter> implements LoginView {
+public class LoginActivity extends BaseActivity<LoginView, LoginPresenter> implements LoginView {
 
     private EditText editUsername;
     private EditText editPassword;
