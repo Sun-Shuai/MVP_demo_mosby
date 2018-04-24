@@ -1,4 +1,4 @@
-package com.sunshuai.mosbydemo;
+package com.sunshuai.mosbydemo.login;
 
 import com.hannesdorfmann.mosby3.mvp.MvpView;
 
